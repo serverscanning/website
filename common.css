@@ -16,6 +16,10 @@ h1 {
   margin: 1.5rem 0 1rem;
 }
 
+a, a:visited {
+  color: #00ff00;
+}
+
 .container {
   max-width: 980px;
   margin: 0 auto;
@@ -69,7 +73,9 @@ h1 {
     transform: rotate(360deg);
   }
 }
-
+.fancy-link:visited {
+  color: #00cc00
+}
 .fancy-link {
   color: #00cc00;
   transition: color 0.1s, background-color 0.1s;
