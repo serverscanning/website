@@ -97,3 +97,12 @@ a, a:visited {
   height: 100px;
   background-image: linear-gradient(green, black);
 }
+
+.centered {
+  marign: auto;
+  text-align: center;
+}
+
+.hover-cursor {
+  cursor: pointer;
+}
