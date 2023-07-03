@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="/radar.css">
+{% endblock head %}
+
+{% block content %}
+  {{ section.content | safe }}
+{% endblock content %}
