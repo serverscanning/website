@@ -78,8 +78,9 @@ a, a:visited {
   background-image: linear-gradient(green, black);
 }
 
-body {
-  align-items: center;
+.centered {
+  margin: auto;
+  text-align: center;
 }
 
 .hover-cursor {
