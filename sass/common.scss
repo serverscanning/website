@@ -53,37 +53,10 @@ a, a:visited {
   margin-top: 30px;
 }
 
-.background {
-  transform: rotate(0deg);
-  background-image: conic-gradient(black 30%, green);
-  position: absolute;
-  left: calc((100vw - max(200vh, 200vw)) / 2);
-  bottom: calc((100vh - max(200vh, 200vw)) / 2);
-  height: calc(max(200vh, 200vw));
-  width: calc(max(200vh, 200vw));
-  background-size: calc(max(200vh, 200vw)) calc(max(200vh, 200vw));
-  animation: 5s rot linear infinite;
-  overflow: hidden;
-  z-index: -1;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .background {
-    animation: none;
-  }
-}
-
-@keyframes rot {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .fancy-link:visited {
   color: #00cc00
 }
+
 .fancy-link {
   color: #00cc00;
   transition: color 0.1s, background-color 0.1s;
@@ -105,9 +78,8 @@ a, a:visited {
   background-image: linear-gradient(green, black);
 }
 
-.centered {
-  marign: auto;
-  text-align: center;
+body {
+  align-items: center;
 }
 
 .hover-cursor {
