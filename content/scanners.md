@@ -7,7 +7,7 @@ This is a list of scanners made by SSI members.  {{ home() }}
 
 ## Temporum
 
-This is a private Discord bot, it has an image server browser and a stream sniper.
+This is a private Discord bot, it has an in game server browser and a stream sniper.
 
 - [Website](https://temporum.org)
 
