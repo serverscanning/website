@@ -11,6 +11,12 @@ This is a private Discord bot, it has an in game server browser and a stream sni
 
 - [Website](https://temporum.org)
 
+## ariadne
+
+Boring server scanner.
+
+- [Website](https://ariadne.wtf)
+
 ## loremipsum
 
 This is a scanner made by NotNite, superseded by a private variant.
