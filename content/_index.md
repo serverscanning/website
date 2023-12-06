@@ -82,6 +82,7 @@ template = "radar.html"
         <a class="fancy-link" href="/about">About</a><br>
         <a class="fancy-link hover-cursor" onclick="freecta(this)">Click here for free cta!</a><br>
         <a class="fancy-link" href="/scanners">Scanners</a>
+        <img src="/88x31.gif" />
       </nav>
     </div>
   </div>
