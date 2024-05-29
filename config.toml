@@ -1,4 +1,4 @@
-base_url = "https://ssi.pet"
+base_url = "https://ssi.fyi"
 compile_sass = true
 build_search_index = false
 
