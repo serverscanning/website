@@ -83,7 +83,14 @@ template = "radar.html"
         <a class="fancy-link hover-cursor" onclick="freecta(this)">Click here for free cta!</a><br>
         <a class="fancy-link" href="//git.ssi.fyi">Forgejo</a> <a class="fancy-link" href="/scanners">Scanners</a>
       </nav>
-      <div class="centered"><img src="/88x31.gif" /></div>
+      <div class="centered">
+        <img src="/88x31.gif" />
+        <p class="webring">
+          <a class="webring" href="https://ring.ssi.fyi/previous?host=ssi.fyi">←</a>
+          <a class="webring" href="https://ring.ssi.fyi/">ssi webring</a>
+          <a class="webring" href="https://ring.ssi.fyi/next?host=ssi.fyi">→</a>
+        </p>
+      </div>
     </div>
   </div>
 </div>
