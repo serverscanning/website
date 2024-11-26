@@ -77,7 +77,7 @@ template = "radar.html"
     </div>
     <div class="margin-top" style="font-size: 1.5em;">
       <nav class="centered">
-        <a class="fancy-link" href="//discord.gg/BWWBFvu654">Discord</a>
+        <a class="fancy-link" href="//discord.gg/NryvCnCFjr">Discord</a>
         <a class="fancy-link" href="//github.com/serverscanning">GitHub</a>
         <a class="fancy-link" href="/about">About</a><br>
         <a class="fancy-link hover-cursor" onclick="freecta(this)">Click here for free cta!</a><br>
