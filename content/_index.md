@@ -77,16 +77,15 @@ template = "radar.html"
     </div>
     <div class="margin-top" style="font-size: 1.5em;">
       <nav class="centered">
-If you are here because of a message in your minecraft server console, this wasn't us and is a harassment campaign from a griefing group
+<b>If you are here because of a message in your minecraft server console, this wasn't us and is a harassment campaign from a griefing group
 Your server is not hacked they are just sending messages in your chat from the dynmap plugin/mod
-To fix this open the dynmap config and change the setting
-``` 
+To fix this open the dynmap config and change the allowchat setting to false like this:</b>
+<pre>
  - class: org.dynmap.SimpleWebChatComponent
-    allowchat: true
+    allowchat: false
     # If true, web UI users can supply name for chat using 'playername' URL parameter.  'trustclientname' must also be set true.
     allowurlname: false
-```
-allowchat to "`false`"
+</pre>
         <a class="fancy-link" href="//discord.gg/BWWBFvu654">Discord</a>
         <a class="fancy-link" href="//github.com/serverscanning">GitHub</a>
         <a class="fancy-link" href="/about">About</a><br>
