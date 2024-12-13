@@ -36,13 +36,12 @@
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
@@ -55,13 +54,15 @@
   float: right;
   font-size: 28px;
   font-weight: bold;
+  transition: color .25s;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: white;
   text-decoration: none;
   cursor: pointer;
+  transition: color .25s;
 }
 </style>
   </head>
@@ -73,14 +74,15 @@
       <div class="modal-content">
         <span class="close">&times;</span>
         <p>
-          If you are here because of a message in your minecraft server console, this wasn't us and is a harassment campaign from a griefing group.
-          Your server is not hacked they are just sending messages in your chat from the dynmap plugin/mod.
-          To fix this open the dynmap config and change the allowchat setting to false like this:
+          If you are here because of a message in your Minecraft server console, this wasn't us. This is a harassment campaign from a griefing group.
+          Your server is not hacked; they are just sending messages in your chat from the Dynmap plugin/mod.
+          To fix this, open the Dynmap configuration file and change the <code>allowchat</code> setting to <code>false</code> like this:
         </p>
         <code><pre>
  - class: org.dynmap.SimpleWebChatComponent
     allowchat: false
-    # If true, web UI users can supply name for chat using 'playername' URL parameter.  'trustclientname' must also be set true.
+    # If true, web UI users can supply name for chat using 'playername' URL parameter.
+    # 'trustclientname' must also be set true.
     allowurlname: false
         </pre></code>
       </div>
